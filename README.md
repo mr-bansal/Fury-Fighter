@@ -1,2 +1,2 @@
 # Sensei-Shobu
-Sensei Shobu | A thrilling showdown battle 
+Sensei Shobu | A thrilling battle showdown
