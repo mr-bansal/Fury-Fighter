@@ -28,7 +28,7 @@ const shop = new Sprite({
 
 const player = new Fighter({
   position: {
-    x: 0,
+    x: 50,
     y: 0
   },
   velocity: {
@@ -88,7 +88,7 @@ const player = new Fighter({
 
 const enemy = new Fighter({
   position: {
-    x: 400,
+    x: 800,
     y: 100
   },
   velocity: {
@@ -105,12 +105,12 @@ const enemy = new Fighter({
   scale: 2.5,
   offset: {
     x: 215,
-    y: 167
+    y: 100
   },
   sprites: {
     idle: {
       imageSrc: './img/kenji/Idle.png',
-      framesMax: 4
+      framesMax: 10
     },
     run: {
       imageSrc: './img/kenji/Run.png',
@@ -118,15 +118,15 @@ const enemy = new Fighter({
     },
     jump: {
       imageSrc: './img/kenji/Jump.png',
-      framesMax: 2
+      framesMax: 3
     },
     fall: {
       imageSrc: './img/kenji/Fall.png',
-      framesMax: 2
+      framesMax: 3
     },
     attack1: {
       imageSrc: './img/kenji/Attack1.png',
-      framesMax: 4
+      framesMax: 7
     },
     takeHit: {
       imageSrc: './img/kenji/Take hit.png',
