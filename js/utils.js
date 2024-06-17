@@ -21,17 +21,6 @@ function determineWinner({ player, enemy, timerId }) {
     document.querySelector('#displayText').innerHTML = 'Player 2 Wins'
   }
 
-  // Adding a restart button
-  const restartButton = document.createElement('button')
-  restartButton.innerHTML = 'Restart Game'
-  restartButton.style.display = 'block'
-  restartButton.style.margin = '20px auto'
-  restartButton.onclick = () => {
-    window.location.reload()
-  }
-
-  // Append the button to the display text
-  document.querySelector('#displayText').appendChild(restartButton)
 }
 
 let timer = 60
